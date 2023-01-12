@@ -1,0 +1,69 @@
+.fruit-section {
+    padding: 32px;
+}
+
+.fruit-wrapper {
+    border: 1px solid #000;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.title {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.bar-wrapper {
+    padding: 24px 40px 24px 24px;
+    border-bottom: 1px solid #000;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.fruit {
+    margin-right: 42px;
+    color: #4599FD;
+}
+
+.bar {
+    width: 350px;
+    height: 24px;
+    border: 1px solid #000;
+    position: relative;
+    cursor: pointer;
+}
+
+.progress {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    z-index: 1;
+    height: 24px;
+}
+
+.count {
+    position: absolute;
+    right: -26px;
+    top: 2px;
+}
+
+.list-items {
+    padding: 30px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 0;
+    border-bottom: 1px solid #000;
+}
+
+.list-fruit {
+    color: rgba(0, 0, 0, 0.8);
+}
